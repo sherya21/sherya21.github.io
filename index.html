@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Basic Page Needs
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <meta charset="utf-8">
+      <title>Shreya Bansal</title>
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Mobile Specific Metas
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- FONT
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+      <!-- CSS
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/skeleton.css">
+      <link rel="stylesheet" href="css/custom.css">
+      <!-- Icon - Credit to Flaticon
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <link rel="icon" type="image/png" href="images/yash.png">
+   </head>
+   <body>
+      <script>
+         function myFunction() {
+             alert("I would love to learn more about you. Let's connect and I am looking forward to discuss about my projects, failures, accomplishments and share my resume! My email is shreya21bansal@gmail.com");
+         }
+      </script>
+      <!-- Primary Page Layout
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="section">
+         <div class="container">
+            <div style="margin-top: 25%">
+               <h1>Philly awaits Shreya!</h1>
+               <!-- Display the countdown timer in an element -->
+               <p id="demo"></p>
+               <script>
+                  // Set the date we're counting down to
+                  var countDownDate = new Date("Aug 12, 2022 18:55:00").getTime();
+
+                  // Update the count down every 1 second
+                  var x = setInterval(function() {
+
+                    // Get today's date and time
+                    var now = new Date().getTime();
+
+                    // Find the distance between now and the count down date
+                    var distance = countDownDate - now;
+
+                    // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    // Display the result in the element with id="demo"
+                    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+
+                    // If the count down is finished, write some text
+                    if (distance < 0) {
+                      clearInterval(x);
+                      document.getElementById("demo").innerHTML = "EXPIRED";
+                    }
+                  }, 1000);
+               </script>
+               <p>
+                  Until a brave, daring and an enthusiastic young lady steps
+                  into a new country to follow her dreams! Come, follow my
+                  journey and more!
+               </p>
+               <p>
+                  Coming from the pink city, I spent majority of my childhood in
+                  Jaipur before moving to Mumbai for my undergraduate career. After
+                  receiving the prestigious degree in Architecture and working for over
+                  a year, I am ready to embark on a new and exciting journey!
+               </p>
+            </div>
+            <div class="button-list">
+               <ul>
+                  <li><a class="button" href="onmyradar.html">On My Radar</a></li>
+                  <li><a class="button" href="blog.html">Blog</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="section">
+         &darr;
+      </div>
+      <div class="section">
+         <div class="container">
+            <div class="row">
+               <div class="one-third column">
+                  <h2 class="value-multiplier">Then</h2>
+                  <h5 class="value-heading">Student, Intern and an Architecture Professional</h5>
+                  <div class="button-list">
+                     <ul>
+                        <li><a class="button" href="https://issuu.com/thebusride" target="_blank">The Busride Design Studio</a></li>
+                        <li><a class="button" href="https://www.guallart.com/" target="_blank">Guallart Architects</a></li>
+                        <li><a class="button" href="http://www.manuelcervantes.com.mx/" target="_blank">Manuel Cervantes Estudio</a></li>
+                        <li><a class="button" href="https://krvia.ac.in/" target="_blank">KRVIA, Mumbai</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="one-third column">
+                  <h2 class="value-multiplier">Now</h2>
+                  <h5 class="value-heading">Experienced Professional - Smart Cities</h5>
+                  <div class="button-list">
+                     <p></p>
+                     <ul>
+                        <li><a class="button" href="https://wri-india.org/" target="_blank">World Resources Institute</a></li>
+                        <li><a class="button" onclick="myFunction()">Resume</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="one-third column">
+                  <h2 class="value-multiplier">Next</h2>
+                  <h5 class="value-heading">Work towards the intersection of climate change and Smart Cities using Data!</h5>
+                  <div class="button-list">
+                     <ul>
+                        <li>Continue to learn, explore, break and build products.</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="section">
+         &darr;
+      </div>
+      <div class="section">
+         <div class="container">
+            <h3>Let's get in touch.</h3>
+            <div class="button-list">
+               <ul>
+                  <li><a class="button button-primary" href="mailto:shreya21bansal@gmail.com?Subject=Hello!">Email</a></li>
+                  <li><a class="button" href="https://www.linkedin.com/in/shreya21bansal/">LinkedIn</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- End Document
+         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   </body>
+</html>
